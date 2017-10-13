@@ -1,10 +1,10 @@
 {
-    "name": "angular-library-starter",
+    "name": "tendsign-angular-components",
     "version": "0.0.1",
     "description": "Build an Angular library compatible with AoT compilation and Tree shaking",
-    "main": "./bundles/angular-library-starter.umd.js",
-    "module": "./modules/angular-library-starter.es5.js",
-    "es2015": "./modules/angular-library-starter.js",
+    "main": "./bundles/tendsign-angular-components.umd.js",
+    "module": "./modules/tendsign-angular-components.es5.js",
+    "es2015": "./modules/tendsign-angular-components.js",
     "scripts": {
         "build": "node build.js",
         "test": "karma start",
@@ -14,16 +14,16 @@
         "compodoc": "compodoc -p tsconfig.json",
         "compodoc-serve": "compodoc -s"
     },
-    "typings": "./angular-library-starter.d.ts",
+    "typings": "./tendsign-angular-components.d.ts",
     "author": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robisim74/angular-library-starter.git"
+        "url": "https://github.com/robisim74/tendsign-angular-components.git"
     },
     "bugs": {
-        "url": "https://github.com/robisim74/angular-library-starter/issues"
+        "url": "https://github.com/robisim74/tendsign-angular-components/issues"
     },
-    "homepage": "https://github.com/robisim74/angular-library-starter",
+    "homepage": "https://github.com/robisim74/tendsign-angular-components",
     "keywords": [
         "angular",
         "javascript",
