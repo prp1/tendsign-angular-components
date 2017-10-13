@@ -1,7 +1,7 @@
 {
     "name": "tendsign-angular-components",
     "version": "0.0.1",
-    "description": "Build an Angular library compatible with AoT compilation and Tree shaking",
+    "description": "Angular components for TendSign apps",
     "main": "./bundles/tendsign-angular-components.umd.js",
     "module": "./modules/tendsign-angular-components.es5.js",
     "es2015": "./modules/tendsign-angular-components.js",
@@ -18,12 +18,12 @@
     "author": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robisim74/tendsign-angular-components.git"
+        "url": "https://github.com/prp1/tendsign-angular-components.git"
     },
     "bugs": {
-        "url": "https://github.com/robisim74/tendsign-angular-components/issues"
+        "url": "https://github.com/prp1/tendsign-angular-components.git/issues"
     },
-    "homepage": "https://github.com/robisim74/tendsign-angular-components",
+    "homepage": "https://github.com/prp1/tendsign-angular-components",
     "keywords": [
         "angular",
         "javascript",

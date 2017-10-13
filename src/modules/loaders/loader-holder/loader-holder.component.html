@@ -1,0 +1,7 @@
+<div class="tac-loader-holder" [class.tac-is-loader-shown]="showLoader">
+    <div *ngIf="!showLoader" [@loaderHolderAnimation]>
+        <ng-content></ng-content>
+    </div>
+
+    <tac-loader-spinner *ngIf="showLoader"></tac-loader-spinner>
+</div>
