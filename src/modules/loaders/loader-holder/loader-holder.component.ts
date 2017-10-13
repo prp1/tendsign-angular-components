@@ -22,10 +22,27 @@ import {
     ],
     changeDetection: ChangeDetectionStrategy.OnPush,
     selector: 'tac-loader-holder',
-    styleUrls: [
-        './loader-holder.component.less',
-    ],
-    templateUrl: './loader-holder.component.html',
+    styles: [`
+        .tac-loader-holder {
+            position: relative;
+
+            &.tac-is-loader-shown {
+
+                @media screen and (min-width: (600px)) {
+                    min-height: 100px;
+                }
+            }
+        }
+    `],
+    template: `
+        <div class="tac-loader-holder" [class.tac-is-loader-shown]="showLoader">
+            <div *ngIf="!showLoader" [@loaderHolderAnimation]>
+                <ng-content></ng-content>
+            </div>
+
+            <tac-loader-spinner *ngIf="showLoader"></tac-loader-spinner>
+        </div>
+    `,
 })
 export class LoaderHolderComponent {
 
